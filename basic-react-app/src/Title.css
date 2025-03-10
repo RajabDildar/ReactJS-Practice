@@ -1,0 +1,10 @@
+.Title {
+  border: 2px solid green;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.greetings {
+  color: red;
+}
