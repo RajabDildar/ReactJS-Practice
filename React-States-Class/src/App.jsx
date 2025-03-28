@@ -2,23 +2,21 @@ import Counter from "./Counter.jsx";
 import "./App.css";
 import LikeButton from "./LikeButton.jsx";
 import LudoBoard from "./LudoBoard.jsx";
-import LudoBoard2 from "./LudoBoard2.jsx";
+import TodoList from "./TodoList.jsx";
+import TodoList2 from "./TodoList2.jsx";
+import Lottery from "./Lottery.jsx";
 
 function App() {
   return (
     <>
-      <LudoBoard2 />
+      {/* <LudoBoard /> */}
+      {/* <Counter /> */}
+      {/* <LikeButton /> */}
+      {/* <TodoList /> */}
+      <TodoList2 />
+      {/* <Lottery lotteryNumber={5} winningNum={15} /> */}
     </>
   );
 }
-
-/* function App() {
-  return (
-    <>
-      <Counter />
-      <LikeButton />
-    </>
-  );
-} */
 
 export default App;

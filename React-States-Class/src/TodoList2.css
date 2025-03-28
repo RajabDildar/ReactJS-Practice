@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.todoForm {
+  background-color: #eeeff0;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputBox {
+  padding: 1rem;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  width: 100%;
+  background-color: #eeeff0;
+}
+
+.submitBtn {
+  background-color: #f7361d;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  border: none;
+  color: white;
+}
+
+.delBtn,
+.doneBtn {
+  background-color: crimson;
+  color: white;
+  border-radius: 1.5rem;
+  transform: scale(0.9);
+}
+
+.taskList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #eeeff0;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+}
+.doneBtn {
+  background-color: #7a7777;
+}
+
+.todoContainer {
+  background-color: white;
+  width: min(500px, 80vw);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0.1rem 0.5rem rgba(0, 0, 0, 0.15);
+}
+
+.todoContainer h2 {
+  text-align: start;
+  color: white;
+  font-style: italic;
+}
+
+.todoContainer h1 {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+.todoContainer h1 i {
+  font-size: 2rem;
+}
