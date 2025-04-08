@@ -10,8 +10,8 @@ export default function WeatherApp() {
     "https://images.unsplash.com/photo-1607364851800-991c1f32e943?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29sZCUyMHNlYXNvbnxlbnwwfHwwfHx8MA%3D%3D"
   );
 
-  let API_KEY = "1866c8c57beef872a39d7c9ae214f4c3";
-  let URL = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${API_KEY}&units=metric`;
+  const apiKey = import.meta.env.VITE_API_KEY;
+  let URL = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=metric`;
 
   let handleSubmit = async (event) => {
     event.preventDefault();
